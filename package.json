@@ -1,12 +1,12 @@
 {
-  "name": "botjs",
+  "name": "discord-bot",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [samp, bot, bot-discord],
+  "keywords": [],
   "author": "melovart",
   "license": "MIT",
   "type": "commonjs",
@@ -14,6 +14,7 @@
     "discord.js": "^14.21.0",
     "dotenv": "^17.0.1",
     "fs": "^0.0.1-security",
+    "gamedig": "^3.0.0",
     "mysql2": "^3.14.1"
   }
 }

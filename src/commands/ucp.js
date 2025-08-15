@@ -13,6 +13,14 @@ module.exports = {
 		.setName('ucp')
 		.setDescription('UCP Panel'),
 	async execute (interaction) {
+		const userid = interaction.user.id;
+		if (userid !== config.owner_id) {
+			return interaction.reply({
+				content: config.denied,
+				flags: MessageFlags.Ephemeral
+			});
+		}
+
 		const embed = new EmbedBuilder()
 			.setAuthor({
 				name: interaction.guild.name,

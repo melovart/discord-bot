@@ -10,7 +10,8 @@ A personal Discord bot developed by [Melovart](https://github.com/melovart) for 
 
 ## Now Features Available
 - User Control Panel (UCP)
-- Discord Bot Activities
+- SAMP Discord Bot Activities
+- Join & Leave Embed Messages
 
 ## Getting Started
 1. Clone this reposirory or Download in releases page it is the stable versions
